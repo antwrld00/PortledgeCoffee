@@ -1,0 +1,103 @@
+/* This styling is using the type selector for the body element to add a background image */
+body {
+    background-color: rgb(0, 0, 0);
+    /* Using the Department of Coffee and Social Affairs image by Michael Dales is licenesed under CC By-NC 2.0 */
+    background-image: url(images/departmentOfCoffee.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* This will style the wrapper using the class selector*/
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This styling will use the type selector for the header element*/
+
+/* This styling will resize the logo */
+.logoimage {
+    height: 118px;
+}
+
+/* This sction of css will style the nav */
+nav {
+    background-color: darkgray(16, 167, 16);
+    height: 40px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+a {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* This is using a compound selector */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* This section of css will style the main */
+main {
+    /* background-color: bisque; */
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: cornsilk;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px orange;
+}
+
+
+/*p {
+    font-family: sans-serif;
+}/*
+
+*/
+main p {
+    font-size: 18px;
+    color: rgba(red, green, blue, alpha);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+main h2 {
+    color: darkorange;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.map {
+    padding-top: 65px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+
+
+/* This css will style the footer */
+footer {
+    background-color: cornsilk;
+    height: 75px;
+
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
